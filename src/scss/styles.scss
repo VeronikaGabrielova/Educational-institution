@@ -1,0 +1,43 @@
+$warning: rgb(21, 219, 203);
+$danger: black;
+
+
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar-brand img{
+    width: 130px;
+}
+.full-width{
+    width: 100%;
+    height: auto;
+}
+.feature-item img{
+    width: 50px;
+    height: auto;
+}
+
+.brand-icon img{
+    width: 150px;
+    height: auto;
+}
+.subscribe{
+    background-image: url("./../../dist/img/subscribe.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.blur-filter{
+    backdrop-filter: blur(8px);
+    background-color: rgb(255 255 255 / 30%);
+}
+.bg-red {
+    background-color: red;
+}
+.navbar-brand img {
+    width: 35px;
+}
+.brand-icon img {
+    width: 35px;
+}
+.bg-copyright {
+    background-color: rgb(43, 40, 40);
+}
